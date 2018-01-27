@@ -1,0 +1,16 @@
+1) What is a class?
+
+Uma espécie de blueprint, como uma forma de bolo ou um projeto de prédio.  Com
+uma forma de bolo ou projeto de prédio dá para construir vários bolos e vários
+prédios, respectivamente.
+
+A melhor traduação de "blueprint" para o português é diagrama, desenho técnico.
+
+2) What is an instance of a class?
+
+É usar a definição da classe para criar um objeto. Esse objeto é uma instância
+da Classe.  Quando fizemos
+
+brad = Turtle.turtle()
+
+Estamos criando o objeto Brad com base na definição da Classe Turtle.
