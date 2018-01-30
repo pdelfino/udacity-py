@@ -18,6 +18,7 @@ avatar = media.Movie("https://www.youtube.com/watch?v=5PSNL1qE6VY",
                      "https://cdn.traileraddict.com/content/20th-century-fox/avatar-6.jpg")
 
 print (avatar.storyline)
+
 print (toy_story.name)
 
 toy_story.open_trailer()
@@ -30,4 +31,15 @@ avatar.open_trailer()
 
 avatar.open_image()
 
+hp = media.Movie("https://www.youtube.com/watch?v=o8zKrA5kbNE",
+                 "Harry Potter",
+                 "A boy in a world full of wizards",
+                 "https://images-na.ssl-images-amazon.com/images/I/51cKvT6lcaL.jpg")
+
+
+print (hp.name)
+
+hp.open_trailer()
+
+hp.open_image()
 
