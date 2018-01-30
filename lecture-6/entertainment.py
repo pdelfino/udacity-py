@@ -1,4 +1,5 @@
 import media
+import fresh_tomatoes
 
 # it is a good practice to define a class in one file and use it in another file
 
@@ -17,29 +18,31 @@ avatar = media.Movie("https://www.youtube.com/watch?v=5PSNL1qE6VY",
                      "A marine in an allien planet",
                      "https://cdn.traileraddict.com/content/20th-century-fox/avatar-6.jpg")
 
-print (avatar.storyline)
+# print (avatar.storyline)
 
-print (toy_story.name)
+# print (toy_story.name)
 
-toy_story.open_trailer()
+# toy_story.open_trailer()
 
-toy_story.open_image()
+# toy_story.open_image()
 
-print (avatar.name)
+# print (avatar.name)
 
-avatar.open_trailer()
+# avatar.open_trailer()
 
-avatar.open_image()
+# avatar.open_image()
 
 hp = media.Movie("https://www.youtube.com/watch?v=o8zKrA5kbNE",
                  "Harry Potter",
                  "A boy in a world full of wizards",
                  "https://images-na.ssl-images-amazon.com/images/I/51cKvT6lcaL.jpg")
 
+# print (hp.name)
 
-print (hp.name)
+# hp.open_trailer()
 
-hp.open_trailer()
+# hp.open_image()
 
-hp.open_image()
+fresh_tomatoes.open_movies_page([hp,avatar,toy_story])
+
 
