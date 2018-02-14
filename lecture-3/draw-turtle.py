@@ -1,6 +1,6 @@
 import turtle
 
-window = turtle.Turtle()
+window = turtle.Screen()
 window.bgcolor("blue") 
     
 brad = turtle.Turtle()
@@ -38,12 +38,11 @@ def draw_cir_w_square():
         iter = iter + 8 
 
 draw_cir_w_square()
-"""
+
 angie = turtle.Turtle()
 angie.shape("turtle")
 angie.color("red")
 angie.speed(100)
-
 
 def draw_pure_circle():
     angie.left(90)
@@ -92,5 +91,3 @@ def draw_circle_triangle():
 draw_circle_triangle()
 
 window.exitonclick()
-
-"""
