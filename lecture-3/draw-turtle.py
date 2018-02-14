@@ -1,8 +1,6 @@
-# -*- coding: utf-8 -*-
-
 import turtle
 
-window = turtle.Screen()
+window = turtle.Turtle()
 window.bgcolor("blue") 
     
 brad = turtle.Turtle()
@@ -40,13 +38,12 @@ def draw_cir_w_square():
         iter = iter + 8 
 
 draw_cir_w_square()
-
+"""
 angie = turtle.Turtle()
 angie.shape("turtle")
 angie.color("red")
 angie.speed(100)
 
-# duas tartarugas fazendo círculos envolta dos quadrados
 
 def draw_pure_circle():
     angie.left(90)
@@ -96,5 +93,4 @@ draw_circle_triangle()
 
 window.exitonclick()
 
-#outra tartaruga fazendo um triangulo e um círculo de tringângulo
-
+"""
