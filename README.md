@@ -11,7 +11,7 @@ Projects
 
 + Profanity Editor project: a script that identifies cursed words, like sh#t;
 
-+ Movie Website project: creates a web page that shows some of my favorite movie names, posters and displays their trailler:
++ Movie Website project: creates a web page that shows some of my favorite movie, displaying their names, posters and traillers:
 
 
 Cool GIFs
