@@ -1,3 +1,8 @@
+Details
+===
++ Python 3
++ Udacity (free) course: [Programming Foundations with Python: Learn Object-Oriented Programming](https://www.udacity.com/course/introduction-to-python--ud1110)
+
 Projects
 ===
 
